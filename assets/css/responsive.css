@@ -1,0 +1,385 @@
+@media (max-width: 1600px) {
+    #register-two .register-box:before {
+        left: -80px;
+    }
+    #main .main-box:before {
+        content: "";
+        background: url(../img/mac.png)no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: -57px;
+        right: -36px;
+        width: 700px;
+        height: 490px;
+    }
+    #main .main-box .box {
+        max-width: 585px;
+    }
+    #main .main-box h1 {
+        font-size: 39px;
+    }
+}
+@media (max-width: 1200px) {
+    .container{
+        max-width:960px;
+    }
+    #main .main-box:before {
+        content: "";
+        background: url(../img/mac.png)no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 10px;
+        right: -15px;
+        width: 570px;
+        height: 490px;
+    }
+    #main .main-box .box {
+        max-width: 500px;
+    }
+    #main .main-box h1 {
+        font-size: 34px;
+    }
+    #spike .spike-info .info p {
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    #spike {
+        padding-bottom: 180px;
+    }
+    #spike .spike-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #intensive .in-box .box p {
+        font-size: 30px;
+    }
+    #intensive .in-box:before {
+       display: none;
+    }
+    #waiting .wait-box:before {
+        display: none;
+    }
+    #waiting .wait-box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #register-two .register-box:before {
+       display: none;
+    }
+    #register-two .register-form {
+        max-width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #register-two {
+        padding: 160px 0 170px 0;
+    }
+    #register {
+        padding: 150px 0 90px 0;
+    }
+    #register:before {
+        top: 360px;
+    }
+    #register .register-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+    }
+}
+@media (max-width: 991px) {
+    .container{
+        max-width: 450px;
+    }
+    body{
+        background: url("../img/bg-900.png")no-repeat top;
+        background-size: cover;
+    }
+    .section-title{
+        font-size: 39px;
+    }
+    #main {
+        padding: 104px 0 140px 0;
+    }
+    #main .main-box {
+        max-width: 100%;
+        display: flex;
+        position: relative;
+        padding-bottom: 410px;
+    }
+    #main .main-box:before {
+        background: url(../img/mac900.png)no-repeat;
+        background-size: cover;
+        top: auto;
+        bottom: 0;
+        right: -103px;
+        width: 700px;
+        height: 452px;
+    }
+    #main .main-box .button {
+        font-size: 18.7px;
+        color: #FFFFFF;
+        border-radius: 10px;
+        background-color: rgb(79, 182, 255);
+        width: 100%;
+    }
+    #spike .spike-box {
+        grid-template-columns: 1fr;
+        grid-row-gap: 48px;
+    }
+    #spike .spike-info .info p {
+        font-size: 25px;
+    }
+    #spike {
+        padding-bottom: 150px;
+    }
+
+    #intensive {
+        padding-bottom: 145px;
+    }
+
+    #intensive .in-box {
+        grid-template-columns: 1fr;
+        grid-row-gap: 80px;
+        grid-column-gap: 0;
+    }
+    #intensive:before {
+        content: "";
+        background: url(../img/shape1-900.png);
+        width: 100%;
+        height: 990px;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: -133px;
+    }
+    #waiting .wait-box .box {
+        display: grid;
+        grid-template-columns: 80px 66px auto;
+    }
+    #waiting .box.last {
+        display: grid;
+        grid-template-columns: 80px 66px auto;
+    }
+    #waiting  .box p {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #waiting .wait-box .box img ,
+    #waiting  .box img {
+        height: 2px;
+        width: 50px;
+        margin-top: 28px;
+    }
+    #reviews .review-box {
+        grid-column-gap: 0;
+        grid-row-gap: 40px;
+        grid-template-columns: 1fr;
+    }
+    #reviews {
+        padding-bottom: 150px;
+    }
+    #reviews .section-title {
+        margin-bottom: 60px;
+    }
+    #register .section-title {
+        margin-bottom: 70px;
+    }
+    #register .reg-text {
+        font-size: 40px;
+    }
+    #register-two {
+        padding: 150px 0;
+    }
+
+    .register-form input {
+        font-size: 20px;
+        height: 66px;
+        padding-left: 25px;
+        margin-bottom: 40px;
+    }
+    #register-two .section-title {
+        margin-bottom: 56px;
+    }
+    .register-form button{
+        height: 68px;
+        font-size: 22px;
+    }
+    #register:before {
+        content: "";
+        background: url(../img/shape2-900.png)no-repeat;
+        position: absolute;
+        left: 0;
+        top: auto;
+        bottom: -148px;
+        width: 100%;
+        height: 859px;
+        z-index: 100;
+        background-size: cover;
+    }
+
+    #register {
+        padding: 0 0 154px 0;
+    }
+    footer {
+        padding: 0 0 117px 0;
+    }
+    footer .policy {
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        max-width: 290px;
+    }
+    #main .main-box {
+        max-width: 100%;
+        display: block;
+        padding-bottom: 220px;
+    }
+    #main {
+        padding: 60px 0 40px 0;
+    }
+    #main .main-box:before {
+        background: url(../img/mac900.png)no-repeat;
+        background-size: contain;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: 320px;
+        height: 232px;
+    }
+    #main .main-box h1 {
+        font-size: 38px;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 35px;
+    }
+    #main .main-box .info {
+        padding-right: 0;
+        margin: 26px 0 40px 0;
+    }
+    #main .main-box .info p {
+        font-size: 16px;
+    }
+    #main .main-box .button {
+        font-size: 24px;
+       text-align: center;
+        width: 100%;
+        height: 82px;
+        padding: 0;
+    }
+    #main .main-box .date span{
+        display: none;
+    }
+    #main .main-box .date {
+        font-size: 21px;
+        width: 100%;
+        text-align: center;
+        height: 60px;
+    }
+    #spike .section-title {
+        margin-bottom: 40px;
+    }
+    #spike .spike-info .name {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #spike .spike-info .info p {
+        font-size: 22px;
+    }
+    #spike {
+        padding-bottom: 80px;
+    }
+    .section-title {
+        font-size: 27px;
+    }
+    #intensive .in-box {
+        grid-row-gap: 40px;
+    }
+    #intensive {
+        padding-bottom: 80px;
+    }
+    #intensive:before{
+        background: url("../img/shape1-500.png")no-repeat;
+        height: 857px;
+        top: -40px;
+    }
+    #intensive .section-title {
+        margin-bottom: 40px;
+    }
+    #waiting .wait-box .box img, #waiting .box img {
+      display: none;
+    }
+    #waiting .wait-box .box {
+        display: grid;
+        grid-template-columns: 40px auto;
+        grid-column-gap: 10px;
+    }
+    #waiting .wait-box {
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+        margin-bottom: 40px;
+    }
+    #waiting .box.last {
+        display: grid;
+        grid-template-columns: 40px auto;
+        grid-column-gap: 10px;
+    }
+    #waiting .box .num {
+        font-size: 30px;
+    }
+    #waiting .box p {
+        font-size: 27px;
+        margin-top: 0;
+    }
+    #waiting .section-title {
+        margin-bottom: 40px;
+    }
+    #register-two {
+        padding: 90px 0;
+    }
+    .register-form input {
+        font-size: 13px;
+        height: 44px;
+        padding-left: 25px;
+        margin-bottom: 23px;
+    }
+    .register-form button {
+        height: 82px;
+        font-size: 22px;
+        padding: 0;
+    }
+    #reviews .section-title {
+        margin-bottom: 35px;
+    }
+    #reviews {
+        padding-bottom: 80px;
+    }
+    #register .reg-text {
+        font-size: 26px;
+    }
+    #register .reg-text:before{
+        width: 146px;
+        height: 127px;
+        background: url("../img/icon-cmob.png");
+    }
+    #register:before{
+        background: url("../img/shape2-500.png")no-repeat;
+        height: 383px;
+        bottom: -37px;
+    }
+    #register .section-title {
+        margin-bottom: 30px;
+    }
+    #register {
+        padding: 0 0 70px 0;
+    }
+    footer {
+        padding: 0 0 17px 0;
+    }
+    footer .policy{
+        font-size: 18px;
+    }
+}
