@@ -9,17 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
           integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-          integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -33,7 +24,7 @@
             <div class="main-box">
                 <div class="box">
                     <div class="date">
-                        Бесплатный интенсив <span>|</span>14 декабря 19:00
+                        Бесплатный вебинар <span> | </span> <br> 14 декабря 19:00
                     </div>
                     <h1>P2P торговля криптовалютой <br>
                         для новичков</h1>
@@ -53,8 +44,8 @@
                             заработать 500 000 рублей за месяц
                         </p>
                     </div>
-                    <a href="#" class="button">
-                        Зарегистрироваться на интенсив
+                    <a href="#recording" class="button popup-with-form">
+                        Зарегистрироваться на вебинар
                     </a>
                 </div>
             </div>
@@ -63,7 +54,7 @@
     <section id="spike">
         <div class="container">
             <div class="section-title">
-                Спикер интенсива
+                Спикер вебинара
             </div>
             <div class="spike-box">
                 <div class="spike-img">
@@ -90,7 +81,7 @@
     <section id="intensive">
         <div class="container">
             <div class="section-title">
-                Для кого этот интенсив
+                Для кого этот вебинар
             </div>
             <div class="in-box">
                 <div class="box">
@@ -132,7 +123,7 @@
     <section id="waiting">
         <div class="container">
             <div class="section-title">
-                Что ваш ждет на интенсиве
+                Что ваш ждет на вебинаре
             </div>
             <div class="wait-box">
                 <div class="box">
@@ -180,7 +171,7 @@
     <section id="register-two">
         <div class="container">
             <div class="section-title">
-                Вас ждет много полезной информации
+                Зарегистрируйтесь прямо сейчас <br>
                 Это бесплатно
             </div>
             <div class="register-box">
@@ -190,9 +181,9 @@
                             <input type="text" placeholder="Введите Ваше имя">
                         </div>
                         <input type="text" placeholder="Введите Ваш адрес электронной почты">
-                        <input type="text" placeholder="+7 908-65-30">
+                        <input type="text" id="phone1" placeholder="+7 908-65-30">
                         <button class="button">
-                            Зарегистрироваться на интенсив
+                            Зарегистрироваться на вебинар
                         </button>
                     </form>
                 </div>
@@ -202,7 +193,7 @@
     <section id="reviews">
         <div class="container">
             <div class="section-title">
-                Отзывы с нашего первого интенсива
+                Отзывы с нашего первого вебинара
             </div>
             <div class="review-box">
                 <img src="assets/img/review1.png" alt="">
@@ -223,9 +214,9 @@
                     <form action="">
                         <input type="text" placeholder="Введите Ваше имя">
                         <input type="text" placeholder="Введите Ваш адрес электронной почты">
-                        <input type="text" placeholder="+7 908-65-30">
+                        <input type="text" id="phone" placeholder="+7 908-65-30">
                         <button class="button">
-                            Зарегистрироваться на интенсив
+                            Зарегистрироваться на вебинар
                         </button>
                     </form>
                 </div>
@@ -246,5 +237,47 @@
         </a>
     </div>
 </footer>
+<div id="recording" class=" white-popup-block mfp-hide">
+    <div class="section-title">Заполните форму</div>
+    <form class="js-main-form">
+        <input type="text" class="input-form" placeholder="Введите Ваше имя">
+        <input type="text" class="input-form" placeholder="Введите Ваш адрес электронной почты">
+        <input type="text" id="phone3" class="input-form" placeholder="+7 908-65-30">
+        <div class="btn-block">
+            <button class="button" href="#">
+                Зарегистрироваться</button>
+            <div class="box-shadow"></div>
+        </div>
+    </form>
+    <button title="Close (Esc)" type="button" class="mfp-close"></button>
+    <div class="after"></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/imask"></script>
+<script>
+    var element = document.getElementById('phone');
+    var maskOptions = {
+        mask: '+7(000)000-00-00',
+        lazy: false
+    }
+    var mask = new IMask(element, maskOptions);
+    var element1 = document.getElementById('phone1');
+    var maskOptions1 = {
+        mask: '+7(000)000-00-00',
+        lazy: false
+    }
+    var mask1 = new IMask(element1, maskOptions1);
+    var element3 = document.getElementById('phone3');
+    var maskOptions3 = {
+        mask: '+7(000)000-00-00',
+        lazy: false
+    }
+    var mask3 = new IMask(element3, maskOptions3);
+</script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

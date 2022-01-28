@@ -110,6 +110,9 @@ body {
     display: flex;
     position: relative;
 }
+#main .main-box .date br{
+    display: none;
+}
 #main .main-box:before{
     content: "";
     background: url("../img/mac.png")no-repeat;
@@ -137,7 +140,7 @@ body {
 }
 #main .main-box .date {
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     color: #FFFFFF;
     font-weight: 600;
     border-radius: 10px;
@@ -149,6 +152,9 @@ body {
     padding-left: 15px;
     z-index: 96;
     margin-bottom: 22px;
+}
+#main .main-box .date span{
+    padding: 0 6px;
 }
 #main .main-box h1 {
     font-size: 45px;
@@ -202,17 +208,8 @@ body {
     grid-template-columns: 585px 490px;
     grid-column-gap: 65px;
 }
-#spike .spike-img{
-    position: relative;
-}
-#spike .spike-img:after{
-    content: "";
-    background: url("../img/bt1.png")no-repeat;
-    width: 68px;
-    height: 68px;
-    bottom: 20px;
-    right: 20px;
-    position: absolute;
+.button{
+    text-align: center;
 }
 #spike .spike-info .name{
     font-weight: 800;
@@ -384,6 +381,9 @@ body {
     grid-template-columns: 555px 466px;
     grid-column-gap: 116px;
 }
+.register-form{
+    z-index: 99999;
+}
 .register-form input{
     font-weight: 400;
     font-size: 26px;
@@ -403,13 +403,16 @@ body {
     height: 83px;
     font-size: 27px;
     color: #FFFFFF;
-    padding-left: 24px;
+    text-align: center;
+    justify-content: center;
     display: flex;
     align-items: center;
     border-radius: 10px;
     background-color: rgb(79, 182, 255);
     border: none;
     cursor: pointer;
+    z-index: 99999;
+    position: relative;
 }
 
 .register-form input::placeholder{
@@ -453,4 +456,42 @@ footer .policy{
     text-decoration: underline;
     font-size: 26px;
     font-weight: 600;
+}
+.white-popup-block {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 805px;
+    height: auto;
+    z-index: 141;
+    padding: 38px 124px 45px 124px;
+    margin:  auto;
+    position: relative;
+}
+.white-popup-block .section-title{
+    font-size: 47px;
+    color: #150069;
+    margin-bottom: 45px;
+}
+.white-popup-block .input-form{
+    height: 82px;
+    width: 100%;
+    font-size: 26px;
+    color: rgb(21, 0, 105);
+    border: 2px solid #4fb6ff;
+    padding: 0 30px;
+    margin-bottom: 45px;
+    border-radius: 10px;
+}
+
+.white-popup-block .input-form::placeholder{
+    color: #a199c3;
+}
+.white-popup-block .mfp-close{
+    background: url("../img/x.png")no-repeat;
+    width: 21px;
+    height: 25px;
+    top: 15px;
+    right: 15px;
+    opacity: 1;
+    position: absolute;
 }
